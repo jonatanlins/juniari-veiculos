@@ -15507,6 +15507,29 @@ a img.aligncenter {
   font-size: 29px;
 }
 
+.search-form-input {
+  border: 1px solid #888 !important;
+  padding: 0 1em !important;
+  line-height: 2em;
+  height: auto !important;
+}
+
+.search-form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 3em;
+  border-radius: 50%;
+  padding: 0.7em;
+  border-color: #555;
+  margin-left: 1em;
+}
+
+.search-form-button img {
+  width: 2em;
+}
+
 .toggle_menu:before,
 .toggle_menu span,
 .toggle_menu span:before,
