@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+
+  <head>
+    <title>Juniari Veículos</title>
+    <meta charset="utf-8" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/css/bootstrap-slider.min.css"
+    />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+      <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <div class="bg-danger text-center">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/" class="color-main"
+          >upgrade your browser</a
+        >
+        to improve your experience.
+      </div>
+    <![endif]-->
+
+    <div class="preloader">
+      <div class="preloader_image"></div>
+    </div>
+
+    <div id="canvas">
+      <div id="box_wrapper">
+        <div class="container my-5 py-5">
+          <form action="">
+            <div class="row">
+              <div class="col-6">
+                <select name="" id="" class="my-3">
+                  <option disabled selected>Marca</option>
+                  <option>Ford</option>
+                  <option>Fiat</option>
+                  <option>Volkswagen</option>
+                  <option>Chevrolet</option>
+                  <option>Toyota</option>
+                </select>
+              </div>
+
+              <div class="col-6">
+                <select name="" id="" class="my-3">
+                  <option disabled selected>Modelo</option>
+                  <option>Modelo 1</option>
+                  <option>Modelo 2</option>
+                  <option>Modelo 3</option>
+                  <option>Modelo 4</option>
+                  <option>Modelo 5</option>
+                </select>
+              </div>
+
+              <div class="col-6">
+                <select name="" id="" class="my-3">
+                  <option disabled selected>Ano min.</option>
+                  <option>2005</option>
+                  <option>2008</option>
+                  <option>2011</option>
+                  <option>2014</option>
+                  <option>2017</option>
+                </select>
+              </div>
+
+              <div class="col-6">
+                <select name="" id="" class="my-3">
+                  <option disabled selected>Ano max.</option>
+                  <option>2005</option>
+                  <option>2008</option>
+                  <option>2011</option>
+                  <option>2014</option>
+                  <option>2017</option>
+                </select>
+              </div>
+            </div>
+
+            <input
+              type="text"
+              class="price-range range-slider"
+              value=""
+              data-slider-min="10"
+              data-slider-max="1000"
+              data-slider-step="5"
+              data-slider-value="[250,450]"
+            />
+
+            <div class="row justify-content-center">
+              <button type="submit" class="arrow-button">
+                Encontrar carro
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/compressed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/bootstrap-slider.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Map Script -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4&amp;callback=initGoogleMap"
+    ></script>
+  </body>
+</html>
