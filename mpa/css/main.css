@@ -15622,6 +15622,11 @@ a img.aligncenter {
 .contact-links {
   display: flex;
   justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5em 0;
+  background-color: white;
 }
 
 .contact-links .btn {
