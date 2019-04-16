@@ -1067,8 +1067,16 @@
         });
     });
 
-    //slider
-    $(".range-slider").slider({});
+    (() => {
+      const slider = $(".price-range .range-slider").slider({});
+      const minPriceElement = $(".min-price");
+      const maxPriceElement = $(".max-price");
+
+      slider.on("slide", event => {
+        minPriceElement.text(`R$ ${event.value[0]} MIL`);
+        maxPriceElement.text(`R$ ${event.value[1]} MIL`);
+      });
+    })();
 
     //search modal
     $(".search_modal_button").on("click", function(e) {

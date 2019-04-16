@@ -102,15 +102,27 @@
               </div>
             </div>
 
-            <input
-              type="text"
-              class="price-range range-slider"
-              value=""
-              data-slider-min="10"
-              data-slider-max="1000"
-              data-slider-step="5"
-              data-slider-value="[250,450]"
-            />
+            <div class="container price-range">
+              <div class="row justify-content-around my-4">
+                <span>Preço</span>
+                <input
+                  type="text"
+                  class="range-slider"
+                  data-slider-min="5"
+                  data-slider-max="500"
+                  data-slider-step="5"
+                  data-slider-value="[30,250]"
+                />
+              </div>
+              <div class="text-center my-4">
+                <b>
+                  De
+                  <span class="min-price">R$ 30 MIL</span>
+                  até
+                  <span class="max-price">R$ 250 MIL</span>
+                </b>
+              </div>
+            </div>
 
             <div class="row justify-content-center">
               <button type="submit" class="arrow-button">

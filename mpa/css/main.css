@@ -15633,13 +15633,20 @@ a img.aligncenter {
   padding: 0 1.5em 0 1em;
 }
 
-.range-slider .slider-track-low,
-.range-slider .slider-track-high {
-  background-color: red;
+.price-range .slider-track-low,
+.price-range .slider-track-high {
+  background-color: #ccc;
 }
 
-.range-slider .slider-selection {
+.price-range .slider-selection {
+  background-color: #555;
+  background-image: none;
+}
 
+.price-range .slider-handle {
+  background-color: #fbdc4d;
+  background-image: none;
+  border: 3px solid #555;
 }
 
 /* Mobile Menu (max 991px) styles */
