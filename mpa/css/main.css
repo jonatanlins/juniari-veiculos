@@ -17029,6 +17029,39 @@ body.active-side-header.slide-right .page_header_side {
   margin: 0 15px;
 }
 
+.detail-color-background {
+  width: 100%;
+  height: 170px;
+  margin-bottom: -170px;
+  background-color: #ff4e3c;
+}
+
+.financing_product {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.financing_product li {
+  padding: 20px 10px 20px 185px !important;
+}
+
+.financing_product img {
+  max-width: 185px !important;
+  padding: 0 20px;
+}
+
+.financing_form input[type="text"],
+.financing_form input[type="email"] {
+  border-radius: 5px;
+  padding: 0 0.5em;
+  border: 1px solid #333;
+}
+
+.financing_form input[type="checkbox"] {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   .page_slider .flex-control-nav li:first-child:before,
   .page_slider .flex-control-nav li:last-child:after {
