@@ -17052,6 +17052,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .financing_form input[type="text"],
+.financing_form input[type="number"],
 .financing_form input[type="email"] {
   border-radius: 5px;
   padding: 0 0.5em;
