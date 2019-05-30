@@ -15329,7 +15329,7 @@ a img.aligncenter {
   }
 
   .cs .sf-menu > li > a {
-    color: #fff;
+    color: #000;
   }
 
   .cs .sf-menu > li > a:hover,
@@ -15338,7 +15338,7 @@ a img.aligncenter {
   }
 
   .ds .sf-menu > li > a {
-    color: #fff;
+    color: #000;
   }
 
   .ds .sf-menu > li > a:hover,
