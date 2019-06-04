@@ -20033,3 +20033,17 @@ a[class*="fa-"].fa-paper-plane:hover {
 .checkbox-slider--b-flat input + span:before {
   box-shadow: none;
 }
+
+@media (min-width: 768px) {
+  .page_slider.product_detail_slider {
+    max-width: 1000px;
+    max-height: 750px;
+    margin: 0 auto;
+  }
+  
+  .page_slider.product_detail_slider .flexslider ul li {
+    background-size: contain;
+    min-height: auto !important;
+    height: auto;
+  }
+}
